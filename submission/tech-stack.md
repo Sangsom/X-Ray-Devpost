@@ -12,7 +12,7 @@ This document describes the tech stack, architecture, and RevenueCat implementat
 - Persistence: SwiftData (local-first, offline-capable)
 - Live pricing:
   - Provider abstraction (`LivePriceProvider`)
-  - Current vendor: Finnhub
+  - Current vendor: Marketstack
   - Caching + “last updated” metadata
 - Currency conversion:
   - Base currency setting
@@ -145,7 +145,7 @@ The goal is explainable risk detection, not financial advice.
 
 ---
 
-## 6) Live Pricing (Finnhub) + Caching
+## 6) Live Pricing (Marketstack) + Caching
 
 ### Provider abstraction
 `LivePriceProvider` defines:
